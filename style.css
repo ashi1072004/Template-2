@@ -366,3 +366,117 @@ footer .column i {
 footer .column i+i {
     padding: 0 0.5em;
 }
+
+@media screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    header .col-md-5 img {
+        width: 90%;
+    }
+
+    .section-1 .pray img {
+        width: 80%;
+    }
+
+    .section-1 .panel {
+        top: 4vmin;
+        padding: 8vmin 4vmin 10vmin 8vmin;
+    }
+
+    .section-1 .panel h1 {
+        padding: 0;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .col-md-12>h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .platform .col-md-6 {
+        text-align: center !important;
+    }
+
+    .desktop i {
+        font-size: 8vmin;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .carousel-inner {
+        margin: -24px;
+        width: 24rem;
+    }
+
+    .input-group {
+        padding-right: 40px;
+    }
+
+    footer .column i+i {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .col-md-5 img {
+        width: 80%;
+    }
+
+    .section-1 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .purchase .cards>div {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .carousel-inner {
+        margin: 0;
+    }
+
+    footer .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-4 .card {
+        width: 18rem;
+    }
+
+    .carousel-inner {
+        margin-left: -44px;
+        /* width: 24rem; */
+    }
+}
+
+/* Sticky navbar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
